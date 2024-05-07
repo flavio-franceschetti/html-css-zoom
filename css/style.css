@@ -6,4 +6,34 @@
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: rgb(20, 20, 20);
+}
+
+.container {
+  height: 100vh;
+}
+
+/* CAM SECTION */
+.cam-section {
+  height: 90%;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cam {
+  width: calc(100% / 8);
+  height: 140px;
+}
+
+.cam img {
+  width: 100%;
+  height: 100%;
+}
+
+/* BUTTON SECTION */
+.btn-section {
+  background-color: rgb(50, 50, 50);
+  height: 10%;
 }
