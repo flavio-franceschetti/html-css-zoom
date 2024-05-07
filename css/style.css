@@ -15,16 +15,21 @@ body {
 
 /* CAM SECTION */
 .cam-section {
-  height: 90%;
-  width: 100%;
+  padding: 80px 60px 120px;
   overflow-y: auto;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 10px;
 }
 
 .cam {
-  width: calc(100% / 8);
+  position: relative;
+  width: calc(100% / 8 - 10px);
   height: 140px;
+
+  /* debug */
+  background-color: aqua;
 }
 
 .cam img {
@@ -32,8 +37,27 @@ body {
   height: 100%;
 }
 
+.user-cam-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(109, 109, 109, 0.877);
+  padding: 5px;
+}
+
+.mic-mute-icon {
+  margin-right: 2px;
+}
+
 /* BUTTON SECTION */
 .btn-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   background-color: rgb(50, 50, 50);
-  height: 10%;
+  height: 80px;
+  width: 100%;
 }
