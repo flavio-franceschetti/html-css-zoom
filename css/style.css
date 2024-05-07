@@ -94,6 +94,7 @@ body {
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   background-color: rgb(50, 50, 50);
   height: 80px;
@@ -101,17 +102,47 @@ body {
 }
 
 .video-mic-btns {
+  width: calc(100% / 3);
+  margin-left: 20px;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 10px;
 }
 
 .btn {
   color: #fff;
   background: none;
   border: none;
+  cursor: pointer;
+}
+
+.btn-central-section {
+  width: calc(100% / 3);
+
+  display: flex;
+  gap: 15px;
 }
 
 .icon {
   font-size: 30px;
+}
+
+#share-screen {
+  color: rgb(3, 184, 3);
+}
+
+.end-meeting {
+  width: calc(100% / 3);
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.end-meeting button {
+  font-weight: 700;
+  color: rgb(255, 78, 78);
+  background-color: rgb(68, 68, 68);
+  height: 80px;
+  padding: 20px;
 }
