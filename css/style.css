@@ -46,7 +46,7 @@ body {
 
 /* CAM SECTION */
 .cam-section {
-  padding: 60px 60px 120px;
+  padding: 60px 0 120px;
   overflow-y: auto;
 
   display: flex;
@@ -58,7 +58,8 @@ body {
 .cam {
   position: relative;
   height: 140px;
-  width: 180px;
+  /* width: 180px; */
+  flex-basis: 220px;
 
   /* debug */
   /* background-color: aqua; */
